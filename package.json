@@ -1,0 +1,17 @@
+{
+  "name": "puris-note",
+  "version": "1.0.0",
+  "private": "true",
+  "engines": {
+    "node": ">=18.12.0"
+  },
+  "scripts": {
+    "preinstall": "npx only-allow pnpm"
+  },
+  "keywords": [],
+  "author": "purisdev",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^5.2.2"
+  }
+}

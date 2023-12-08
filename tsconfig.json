@@ -1,0 +1,24 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "module": "NodeNext",
+    "lib": ["ESNext", "DOM"],
+    "moduleResolution": "NodeNext",
+    "strict": true,
+    "sourceMap": true,
+    "skipLibCheck": true,
+    "composite": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "jsx": "react"
+  },
+  "files": [],
+  "references": [
+    {
+      "path": "./packages/blocks"
+    },
+    {
+      "path": "./packages/store"
+    }
+  ]
+}
